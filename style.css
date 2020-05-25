@@ -56,3 +56,21 @@ main header {
     margin-top: 3rem;
 }
 
+main article {
+ margin: 1rem;
+}
+
+main article ul {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding-left: 20%;
+}
+
+main article ul li {
+	margin-bottom: 1rem;
+}
+
+main article p {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
