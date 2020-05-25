@@ -21,6 +21,8 @@ header {
 
 nav ul {
 	margin-top: 1rem;
+	overflow-y: auto;
+	height: 90%;
 }
 
 nav ul li {
