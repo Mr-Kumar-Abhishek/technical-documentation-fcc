@@ -63,6 +63,7 @@ main header {
 
 main article {
  margin: 1rem;
+ text-align: justify;
 }
 
 main article ul {
