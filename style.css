@@ -29,5 +29,12 @@ nav ul li {
 	border-top-color: grey;
 	list-style: none;
 	width: 100%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+nav ul li a {
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
