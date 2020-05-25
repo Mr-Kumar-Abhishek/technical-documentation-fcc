@@ -26,6 +26,7 @@ nav ul {
 nav ul li {
 
 	border-top: 1px solid;
+	border-top-color: grey;
 	list-style: none;
 	width: 100%;
 }
