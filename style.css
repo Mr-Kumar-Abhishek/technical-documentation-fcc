@@ -38,5 +38,8 @@ nav ul li {
 nav ul li a {
 	padding-left: 2rem;
 	padding-right: 2rem;
+	text-decoration: none;
+	cursor: pointer;
+	color: #2f2b2b;
 }
 
