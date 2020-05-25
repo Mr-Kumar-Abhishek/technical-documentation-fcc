@@ -82,13 +82,16 @@ main article p {
 
 code {
 	margin: 1rem;
-    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     border-radius: 10px;
-    background: #f7f7f7;
+    background: #DAD8D5;
     text-align: left;
     display: block;
     white-space: pre;
     word-break: normal;
     word-wrap: normal;
     position: relative;
+    overflow-y: auto;
+    width: 80%;
 }
