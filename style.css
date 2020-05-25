@@ -79,3 +79,13 @@ main article p {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
+
+code {
+	margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #f7f7f7;
+    text-align: left;
+    display: block;
+    white-space: pre;
+}
