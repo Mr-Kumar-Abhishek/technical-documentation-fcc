@@ -11,55 +11,55 @@
 	<body>
 		<input type="checkbox" id="slidebar-slide">
 		<label for="slidebar-slide"><i class="fas fa-sliders-h"></i></label>
-		<nav>
+		<nav id="navbar">
 			<header>JS Documentation</header>
 			<ul>
 				<li>
-					<a href="#Introduction">Introduction</a>
+					<a class="nav-link" href="#Introduction">Introduction</a>
 				</li>
 				<li>
-					<a href="#What_you_should_already_know">What you should already know</a>
+					<a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
 				</li>
 				<li>
-					<a href="#JavaScript_and_Java">JavaScript and Java</a>
+					<a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
 				</li>
 				<li>
-					<a href="#Hello_world">Hello world</a>
+					<a class="nav-link" href="#Hello_world">Hello world</a>
 				</li>
 				<li>
-					<a href="#Variables">Variables</a>
+					<a class="nav-link" href="#Variables">Variables</a>
 				</li>
 				<li>
-					<a href="#Declaring_variables">Declaring variables</a>
+					<a class="nav-link" href="#Declaring_variables">Declaring variables</a>
 				</li>
 				<li>
-					<a href="#Variable_scope">Variable scope</a>
+					<a class="nav-link" href="#Variable_scope">Variable scope</a>
 				</li>
 				<li>
-					<a href="#Global_variables">Global variables</a>
+					<a class="nav-link" href="#Global_variables">Global variables</a>
 				</li>
 				<li>
-					<a href="#Constants">Constants</a>
+					<a class="nav-link" href="#Constants">Constants</a>
 				</li>
 				<li>
-					<a href="#Data_types">Data types</a>
+					<a class="nav-link" href="#Data_types">Data types</a>
 				</li>
 				<li>
-					<a href="#if...else_statement">if...else statement</a>
+					<a class="nav-link" href="#if...else_statement">if...else statement</a>
 				</li>
 				<li>
-					<a href="#while_statement">while statement</a>
+					<a class="nav-link" href="#while_statement">while statement</a>
 				</li>
 				<li>
-					<a href="#Function_declarations">Function declarations</a>
+					<a class="nav-link" href="#Function_declarations">Function declarations</a>
 				</li>
 				<li>
-					<a href="#Reference">Reference</a>
+					<a class="nav-link" href="#Reference">Reference</a>
 				</li>
 			</ul>
 		</nav>
-		<main>
-			<section id="Introduction">
+		<main id="main-doc">
+			<section class="main-section" id="Introduction">
 				<header>Introduction</header>
 				<article>
 					<p>
@@ -93,7 +93,7 @@
 					</ul>
 				</article>
 			</section>
-			<section id="What_you_should_already_know">
+			<section class="main-section" id="What_you_should_already_know">
 				<header>What you should already know</header>
 				<article>
 					<p>This guide assumes you have the following basic background:</p>
@@ -109,7 +109,7 @@
 					</ul>
 				</article>
 			</section>
-			<section id="JavaScript_and_Java">
+			<section class="main-section" id="JavaScript_and_Java">
 				<header>JavaScript and Java</header>
 				<article>
 					<p>
@@ -140,7 +140,7 @@
 					</p>
 				</article>
 			</section>
-			<section id="Hello_world">
+			<section class="main-section" id="Hello_world">
 				<header>Hello world</header>
 				<article>
 					To get started with writing JavaScript, open the Scratchpad and write your
@@ -155,7 +155,7 @@ greetMe("World");
 					browser!
 				</article>
 			</section>
-			<section id="Variables">
+			<section class="main-section" id="Variables">
 				<header>Variables</header>
 				<article>
 					<p>
@@ -176,7 +176,7 @@ greetMe("World");
 					</p>
 				</article>
 			</section>
-			<section id="Declaring_variables">
+			<section class="main-section" id="Declaring_variables">
 				<header>Declaring variables</header>
 				<article>
 					You can declare a variable in three ways:
@@ -196,7 +196,7 @@ greetMe("World");
 					</p>
 				</article>
 			</section>
-			<section id="Variable_scope">
+			<section class="main-section" id="Variable_scope">
 				<header>Variable scope</header>
 				<article>
 					<p>
@@ -230,7 +230,7 @@ console.log(y); // ReferenceError: y is not defined
 					</code>
 				</article>
 			</section>
-			<section id="Global_variables">
+			<section class="main-section" id="Global_variables">
 				<header>Global variables</header>
 				<article>
 					<p>
@@ -247,7 +247,7 @@ console.log(y); // ReferenceError: y is not defined
 					</p>
 				</article>
 			</section>
-			<section id="Constants">
+			<section class="main-section" id="Constants">
 				<header>Constants</header>
 				<article>
 					<p>
@@ -291,7 +291,7 @@ MY_OBJECT.key = "otherValue";
 					</code>
 				</article>
 			</section>
-			<section id="Data_types">
+			<section class="main-section" id="Data_types">
 				<header>Data types</header>
 				<article>
 					<p>The latest ECMAScript standard defines seven data types:</p>
@@ -323,7 +323,7 @@ MY_OBJECT.key = "otherValue";
 					your application can perform.
 				</article>
 			</section>
-			<section id="if...else_statement">
+			<section class="main-section" id="if...else_statement">
 				<header>if...else statement</header>
 				<article>
 					Use the if statement to execute a statement if a logical condition is
@@ -387,7 +387,7 @@ if ((x = y)) {
 					</code>
 				</article>
 			</section>
-			<section id="while_statement">
+			<section class="main-section" id="while_statement">
 				<header>while statement</header>
 				<article>
 					A while statement executes its statements as long as a specified condition
@@ -434,7 +434,7 @@ while (n &lt; 3) {
 					</p>
 				</article>
 			</section>
-			<section id="Function_declarations">
+			<section class="main-section" id="Function_declarations">
 				<header>Function declarations</header>
 				<article>
 					A function definition (also called a function declaration, or function
@@ -473,7 +473,7 @@ function square(number) {
 					</p>
 				</article>
 			</section>
-			<section id="Reference">
+			<section class="main-section" id="Reference">
 				<header>Reference</header>
 				<article>
 					<ul>
