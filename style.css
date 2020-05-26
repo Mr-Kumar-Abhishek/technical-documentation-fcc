@@ -96,3 +96,12 @@ code {
     overflow-y: auto;
     width: 80%;
 }
+
+form {
+	z-index: 5;
+    height: 3rem;
+    width: 3rem;
+    background: brown;
+    display: block;
+    position: absolute;
+}
