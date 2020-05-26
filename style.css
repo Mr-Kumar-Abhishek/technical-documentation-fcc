@@ -105,3 +105,7 @@ form {
     display: block;
     position: absolute;
 }
+
+input[type='checkbox'] {
+	display: none;
+}
