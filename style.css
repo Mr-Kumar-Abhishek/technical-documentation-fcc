@@ -112,7 +112,7 @@ label {
     width: 1.4rem;
     background: brown;
     display: block;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     left: 0px;
     border-top-right-radius: 12px;
