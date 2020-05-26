@@ -16,6 +16,8 @@ nav {
 	height: 100%;
 	border-right: solid;
 	border-color: grey;
+	-moz-transition: left 0.5s ease;
+    transition: left 0.5s ease;
 }
 
 nav header {
@@ -104,6 +106,8 @@ form {
     background: brown;
     display: block;
     position: absolute;
+    bottom: 0px;
+    left: 0px;
 }
 
 input[type='checkbox'] {
@@ -114,4 +118,8 @@ label {
 	margin: 0.7rem;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+input:checked ~ nav { 
+    width: 0rem;
 }
