@@ -99,7 +99,7 @@ code {
 
 form {
 	z-index: 5;
-    height: 3rem;
+    height: 2.1rem;
     width: 3rem;
     background: brown;
     display: block;
@@ -108,4 +108,10 @@ form {
 
 input[type='checkbox'] {
 	display: none;
+}
+
+label {
+	margin: 0.7rem;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
