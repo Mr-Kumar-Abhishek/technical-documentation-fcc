@@ -16,8 +16,7 @@ nav {
 	height: 100%;
 	border-right: solid;
 	border-color: grey;
-	-moz-transition: left 0.5s ease;
-    transition: left 0.5s ease;
+    transition: .2s;
 }
 
 nav header {
@@ -53,6 +52,7 @@ nav ul li a {
 main {
 	margin-left: 20rem;
     padding: 2rem;
+    transition: .2s;
 }
 
 main header {
@@ -99,8 +99,15 @@ code {
     width: 80%;
 }
 
-form {
-	z-index: 5;
+input[type='checkbox'] {
+	display: none;
+}
+
+label {
+	padding: 0.7rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 5;
     height: 2.1rem;
     width: 3rem;
     background: brown;
@@ -110,16 +117,10 @@ form {
     left: 0px;
 }
 
-input[type='checkbox'] {
-	display: none;
+input[type='checkbox']:checked ~ main { 
+    margin-left: 0rem;
 }
 
-label {
-	margin: 0.7rem;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
-
-input:checked ~ nav { 
+input[type='checkbox']:checked ~ nav { 
     width: 0rem;
 }
